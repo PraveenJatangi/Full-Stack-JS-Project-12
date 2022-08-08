@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,900;1,800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   height: 100vh;
+   font-family: Raleway;
+      
+}
+img{
+    width: 50%;
+    height: auto;
+}
+/* ---- ------header part ------- */
+header{
+    background-color:rgb(81, 85, 97);
+    color: white;
+    height: 100vh;
+}
+/*  ------- nav bar  --------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+nav img{
+    width: 150px;
+    margin: 30px ;   
+}
+nav .list-items{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin: 30px ;  
+}
+nav button{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.474);
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 100px;
+    margin: 30px ;
+}
+/* ------ header down part ------ */
+header div{
+    display: flex;
+}
+/*  ------- header down left part ---- */
+header div img{
+    width: 25rem;
+    height: 33rem;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+/* ------ header down right part ----- */
+.nav-text{
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+ header h1{
+    font-size: 70px;
+    font-weight: 900px;
+
+}
+header div p:nth-child(2){
+    font-size: 20px;
+    margin-top: 50px;
+}
+header div p:first-child{
+    font-size: 20px;
+    margin-top: 70px;
+    background-color: aliceblue;
+    color: rgba(0, 0, 0, 0.478);
+    padding: 10px 15px ;
+    display: block;
+  
+}
+header div .lets-talk{
+    background-color: rgb(159, 203, 159);
+    border: none;
+    padding: 13px 40px;
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;   
+}
+/* --------------------hero section------------------------ */
+/*  ---------hero section top part--------- */
+.hero{
+   margin: 0px 120px ;
+}
+
+.section-top{
+    margin-top: 70px;
+
+}
+section .section-top>h1:first-of-type{
+    font-size: 50px;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: 700px;
+
+}
+.numbers{
+    display: flex;
+    justify-content: center;
+    margin-top:70px ;
+   gap: 150px;
+}
+section div h1{
+    font-size: 25px;
+}
+section div p{
+    font-size: 20px;
+}
+.section-top img:last-child{
+  position: relative;
+  left: 150px;
+  width: 80%;
+  height: 500px;
+  top: 60px;
+}
+/* -------hero section middle part ---------- */
+section .section-middle {
+
+}
+
+.section-middle h1{
+    font-size: 60px;
+    margin-top: 200px;
+     margin-left: 400px;
+}
+/* -------------- - - - - - - - - - - - - - - - */
+ .section-middle .middle-first-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.middle-first-part img {
+  margin-left:190px;
+  width: 500px;
+  height: 500px;
+}
+.middle-first-part .text h3{
+    font-size: 40px;
+    margin-top: 60px;
+    
+}
+.middle-first-part .text p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.653);
+    margin-top: 30px;
+
+}
+/* - - - - common button  - - - -  */
+.talks{
+    background-color:rgb(159, 203, 159);
+    border: none;
+    padding: 10px 40px;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+/*  - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+.section-middle .middle-second-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.middle-second-part img{
+    width: 500px;
+    height: 450px;
+
+}
+.middle-second-part .text{
+    margin-left: 200px;
+
+}
+.middle-second-part h3{
+    font-size: 40px;
+    margin-top: 60px;
+}
+.middle-second-part p{
+
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.653);
+    margin-top: 30px;
+}
+/*  - - - - - - - - - - -  - - -- - - - - - -- - -  */
+
+.section-middle .middle-third-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.middle-third-part img {
+    margin-left:190px;
+    width: 500px;
+    height: 500px;
+  }
+  .middle-third-part .text h3{
+      font-size: 40px;
+      margin-top: 60px;
+      
+  }
+  .middle-third-part .text p{
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.653);
+      margin-top: 30px;
+  
+  }
+  /*  - - - - - - - - - - - - - - - - - -  - */
+  /*  - - - - - -hero section bottom part - - - - -   */
+  section .section-bottom{
+    margin-top: 150px;
+  }
+/*  - - - - - - - bottom first part - - - - - - - - */
+div.bottom-first-part {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.bottom-first-part h1{
+    font-size: 40px;
+  }
+  .bottom-first-part p{
+    color: rgba(0, 0, 0, 0.518);
+  }
+  /* -- - - - - -  bottom second part -------- */
+  .bottom-second-part{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+
+  }
+  section .bottom-second-part img{
+    width: 300px;
+    margin-right: 150px;
+  }
+  section .bottom-second-part h1{
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  section .bottom-second-part p{
+   margin-right: 150px;
+   margin-top: 10px;
+   color: rgba(0, 0, 0, 0.714);
+  }
+  /*  - - - - - bottom third part ------- */
+  .bottom-third-part .see-more{
+    background-color:rgb(159, 203, 159);
+    border: none;
+    padding: 10px 40px;
+    color: white;
+    font-size: 20px;
+    margin-top: 90px;
+    margin-left: 45%;
+  }
+  /*   -------- - - -  - footer top part ---------- */
+  div .footer-section{
+    background-color:rgb(7, 15, 7);
+    height: 75vh;
+    margin-top: 100px;
+
+  }
+  div .footer-section img{
+    margin: 20px 120px;
+    width: 150px;
+  }
+  /* ------------svg section ----------- */
+  svg{
+    background-color: rgb(183, 172, 172);
+    padding: 5px;
+    border-radius: 30%;
+    position: relative;
+    float:right;
+    bottom: 60px;
+    right: 200px;
+    margin-right: 40px;
+    
+  }
+
+  .footer-top-section::after{
+    content: "";
+    height: 1px;
+    width: 77%;
+    background-color: #fff;
+    display: block;
+    margin-left: 120px;
+    margin-top: 20px;
+  }
+  /* -----------footer bottom part ------ */
+  .footer-bottom-section{
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    margin: 70px 120px;
+   
+  }
+  .footer-bottom-section ul{
+    list-style: none;
+  }
+  .footer-bottom-section li:first-child{
+    font-size: 22px;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+ .footer-bottom-section li{
+    color: rgba(255, 255, 255, 0.515);
+    margin-bottom: 25px;
+
+  }
