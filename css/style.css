@@ -9,15 +9,13 @@ body{
    font-family: Raleway;
       
 }
-img{
-    width: 50%;
-    height: auto;
-}
+
+
 /* ---- ------header part ------- */
 header{
     background-color:rgb(81, 85, 97);
     color: white;
-    height: 100vh;
+    height: 750px;
 }
 /*  ------- nav bar  --------- */
 nav{
@@ -61,6 +59,9 @@ header div img{
     margin-top: 70px;
     margin-left: 200px;
 }
+
+  
+
  header h1{
     font-size: 70px;
     font-weight: 900px;
@@ -90,7 +91,7 @@ header div .lets-talk{
 /* --------------------hero section------------------------ */
 /*  ---------hero section top part--------- */
 .hero{
-   margin: 0px 120px ;
+   margin: 0px 70px ;
 }
 
 .section-top{
@@ -116,7 +117,7 @@ section div h1{
 section div p{
     font-size: 20px;
 }
-.section-top img:last-child{
+.section-top img{
   position: relative;
   left: 150px;
   width: 80%;
@@ -129,14 +130,14 @@ section .section-middle {
 }
 
 .section-middle h1{
-    font-size: 60px;
+    font-size: 55px;
     margin-top: 200px;
-     margin-left: 400px;
+   margin-left: 25%;
 }
 /* -------------- - - - - - - - - - - - - - - - */
  .section-middle .middle-first-part{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     margin-top: 70px;
 }
 .middle-first-part img {
@@ -170,14 +171,16 @@ section .section-middle {
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
+ 
 }
 .middle-second-part img{
     width: 500px;
     height: 450px;
+    
 
 }
 .middle-second-part .text{
-    margin-left: 200px;
+margin-left: 50px;
 
 }
 .middle-second-part h3{
@@ -225,22 +228,23 @@ div.bottom-first-part {
     margin-bottom: 40px;
 }
 .bottom-first-part h1{
-    font-size: 40px;
+    font-size: 50px;
   }
   .bottom-first-part p{
     color: rgba(0, 0, 0, 0.518);
   }
-  /* -- - - - - -  bottom second part -------- */
+  /* -- - - - - - images-- bottom second part -------- */
   .bottom-second-part{
     display: flex;
     justify-content: space-between;
     align-content: center;
     
+    
 
   }
   section .bottom-second-part img{
     width: 300px;
-    margin-right: 150px;
+    margin-right: auto;
   }
   section .bottom-second-part h1{
     font-size: 30px;
@@ -298,7 +302,7 @@ div.bottom-first-part {
   .footer-bottom-section{
     display: flex;
     color: #fff;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 70px 120px;
    
   }
@@ -313,5 +317,297 @@ div.bottom-first-part {
  .footer-bottom-section li{
     color: rgba(255, 255, 255, 0.515);
     margin-bottom: 25px;
+    
 
   }
+  /* -------media quires------- */
+
+@media only  screen and (max-width:1260px){
+  header div img{
+    width: 21rem;
+    height: 30rem;
+    margin: 50px 0px 0px 40px;
+}
+header h1{
+  font-size: 55px;
+}
+header div p:nth-child(2){
+  font-size: 17px;
+  margin-top: 30px;
+}
+header div p:first-child{
+  font-size: 17px;
+  margin-top: 50px;
+  padding: 10px 15px ;
+}
+header div .lets-talk{
+  padding: 10px 20px;
+  font-size: 17px;
+  margin-left: 50px;   
+}
+.section-top img{
+  left: 30px;
+  width: 90%;
+}
+.section-middle h1{
+   font-size: 40px;
+   
+ 
+}
+.middle-first-part img,.middle-third-part img {
+ 
+  width: 400px;
+}
+.middle-second-part img{
+  
+  width: 400px;
+}
+
+.middle-first-part .text p,.middle-second-part .text p,  .middle-third-part .text p{
+  font-size: 15px;
+}
+.footer-bottom-section{
+  
+  margin: 70px 50px;
+ 
+}
+section .bottom-second-part img{
+  width: 230px;
+  
+}
+}
+
+@media only  screen and (max-width:980px){
+  nav button{
+    
+    padding: 5px 30px;
+    font-size: 15px;
+    position: relative;
+    left: 0px;
+  
+}
+nav img{
+  width: 120px;
+  margin: 10px ;   
+}
+nav .list-items{
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  
+  }
+  
+  .nav-text{
+    position: relative;
+    left: -130px;
+  }
+  header div .lets-talk{
+  padding: 5px 5px;
+  margin-left: 10px;   
+}
+  
+  section .bottom-second-part img{
+    width: 200px;
+    margin-right: 0px;
+  }
+  section .bottom-second-part h1{
+    font-size: 25px;  
+  }
+  section .bottom-second-part p{
+   font-size: 15px;
+  }
+  .middle-first-part img,.middle-third-part img {
+    margin-left:100px;
+    width: 350px;
+  }
+  .bottom-first-part h1{
+    font-size: 30px;
+  }
+  .bottom-first-part p{
+    font-size: 15px;
+  }
+  .footer-bottom-section li:first-child{
+    font-size: 17px;
+    
+  }
+  .footer-bottom-section li{
+    font-size: 13px;
+    
+
+  }
+  svg{
+   
+    right: 100px;
+ 
+    
+  }
+  div .footer-section img{
+    width: 120px;
+  }
+ 
+}
+
+@media only screen and (max-width:780px){
+  nav .list-items{
+    display: none;  
+ }
+header div{ 
+flex-direction: column;
+}
+header div img{
+  width: 20rem;
+  height: 22rem;
+  border-radius: 20px;
+  margin: auto;
+}
+.nav-text{
+ 
+  margin-top: 20px;
+  margin-left: 250px;
+}
+
+header div .lets-talk{
+  
+  margin-left: 10px;   
+}
+header h1{
+  font-size: 30px;
+  
+}
+header div p:nth-child(2){
+  font-size: 14px;
+  margin-top: 10px;
+}
+header div p:first-child{
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 5px 5px;
+
+
+}
+header div .lets-talk{
+ 
+  padding: 5px 10px;
+  font-size: 15px;
+  
+}
+
+.middle-first-part img,.middle-third-part img {
+  margin-left:0px;
+  
+}
+section .section-top>h1:first-of-type{
+  font-size: 40px;
+}
+.numbers{
+ gap: 50px;
+ align-content: center;
+}
+.section-middle h1{
+ font-size: 30px;
+
+}
+.section-middle .middle-first-part,.section-middle .middle-third-part{
+  flex-direction: column-reverse;
+  align-items: center;
+
+}
+.section-middle .middle-second-part{
+  flex-direction: column;
+  align-items: center;
+}
+div.bottom-first-part {
+  flex-direction: column;
+  align-items: center;
+}
+.bottom-second-part{
+  flex-direction: column;
+  align-items: center;
+ 
+}
+section .bottom-second-part img{
+  width: 300px;
+  margin-top:20px;
+}
+section .bottom-second-part h1{
+  font-size: 30px;
+  margin-top: 20px;
+}
+section .bottom-second-part p{
+ margin-right: 150px;
+ margin-top: 10px;
+ max-width:300px 
+ 
+}
+.footer-bottom-section{
+  flex-wrap: wrap;
+ 
+}
+div .footer-section{
+ 
+  height: 85vh;
+  
+
+}
+svg{
+   
+  right: 0px;
+
+  
+}
+div .footer-section img{
+  width: 100px;
+  margin: 20px 20px;
+}
+.footer-top-section::after{
+  
+  margin-left: 50px;
+  
+}
+
+}
+
+@media only screen and (max-width:500px){
+  .nav-text{
+ 
+    margin-top: 20px;
+    margin-left: 150px;
+  }
+  header h1{
+    font-size: 20px;
+    
+  }
+  section .section-top>h1:first-of-type{
+    font-size: 25px;
+  }
+  section div h1{
+    font-size: 20px;
+}
+section div p{
+    font-size: 10px;
+}.section-top img{
+  
+  left: 0px;
+  width:100%;
+  height: auto; 
+}
+.section-middle h1{
+  font-size: 20px;
+ 
+ }
+ .section-middle .text h3{
+  font-size:25px ;
+ }
+ .section-middle .text p{
+  font-size: 15px;
+ }
+ .middle-second-part .text{
+  margin-left: 0px;
+ }  
+ svg{
+  
+  margin-right: 10px;
+  
+}
+
+}
