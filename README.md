@@ -10,11 +10,6 @@
 
 ## Project 12 [Live Link](https://full-stack-js-project-12-praveen.netlify.app/)
 
--   What i learnt in this project
-    - css positions,margins,paddings,flex box and adding images to web page. 
-    - dealed with footer  
-
-
 ---
 #### Screenshot
 
